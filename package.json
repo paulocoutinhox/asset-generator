@@ -1,0 +1,24 @@
+{
+    "name": "asset-generator",
+    "version": "1.0.0",
+    "description": "A simple commandline asset generator for iOS and Android",
+    "dependencies": {
+        "commander": "^9.4.0",
+        "fs-extra": "^10.1.0",
+        "glob": "^8.0.3",
+        "jimp": "^0.16.1"
+    },
+    "bin": {
+        "asset-generator": "./index.js"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Paulo Coutinho <paulocoutinhox@gmail.com> (https://paulocoutinhox.github.io/)",
+    "license": "MIT",
+    "repository": "github:paulocoutinhox/asset-generator",
+    "devDependencies": {
+        "jest": "^29.0.1",
+        "test": "^3.2.1"
+    }
+}
